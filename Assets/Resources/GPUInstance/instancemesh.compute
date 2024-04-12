@@ -57,7 +57,7 @@
 #define Path_Point_T_Index 3
 #define Path_Point_Up_Index 4
 
-#include "instance_data.cginc"
+#include "instance_data.hlsl"
 
 int DELTA_COUNT; // number of instances added to delta buffer
 int PROPERTY_DELTA_COUNT; // number of property instances added to property delta buffer

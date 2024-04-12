@@ -311,7 +311,7 @@ namespace GPUInstance
         /// <returns></returns>
         public static Material CreateDefault()
         {
-            var m = new Material(Shader.Find("Instanced/instancemeshdefault"));
+            var m = new Material(Shader.Find("Shader Graphs/SimpleLitInstancing"));
             m.enableInstancing = true;
             return m;
         }

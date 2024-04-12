@@ -53,7 +53,7 @@ namespace GPUInstanceTest
                 for (int j = 0; j < N; j++)
                 {
                     var mesh = characters[Random.Range(0, characters.Count)];
-                    var anim = mesh.anim.namedAnimations["walk"];
+                    var anim = mesh.anim.namedAnimations["Mutant Walking"];
                     instances[i, j] = new SkinnedMesh(mesh, this.m);
                     instances[i, j].mesh.position = new Vector3(i, 0, j);
                     instances[i, j].SetRadius(1.75f); // set large enough radius so model doesnt get culled to early
